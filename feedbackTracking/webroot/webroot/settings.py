@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'submitFeedback',
+    'feedback',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -55,7 +56,8 @@ ROOT_URLCONF = 'webroot.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR,'submitFeedback/templates')],
+        'DIRS': [os.path.join(BASE_DIR,'submitFeedback/templates'),
+                 os.path.join(BASE_DIR,'feedback/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

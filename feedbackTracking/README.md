@@ -20,3 +20,7 @@ This UI based application to track feedback from team on Project.
 7. To create new Web Project/Application use command `django-admin startproject webroot`
 8. Run the created Application `python manage.py runserver 8080`
 9. To create sub application, use command `python manage.py startapp submitFeedback`
+
+
+## Reference for Developer Material
+* https://simpleisbetterthancomplex.com/article/2017/08/19/how-to-render-django-form-manually.html

@@ -19,4 +19,5 @@ from django.urls import include, path
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('submitFeedback/', include('submitFeedback.urls')),
+    path('feedback/',include('feedback.urls')),
 ]
